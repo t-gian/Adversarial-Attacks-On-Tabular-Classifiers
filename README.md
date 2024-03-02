@@ -11,14 +11,14 @@ applies for a loan. A machine learning model is used to make a decision regardin
 the application based on customer provided information (incomes, age, etc.). The model advises the
 bank to reject the application of our customer. However, he is determined to get the loan by filling
 false information to mislead the model. The key for this attack to succeed is its imperceptibility: the
-application should remain credible and relevant, in coherence with the model’s prediction. As shown
-in Figure 1, adversarial attack must create adversarial samples xadv that are sufficiently close to the
-real data x, i.e., |x − xadv |2 < ϵ, where ϵ is that maximum distance to which an attack is considered
+application should remain credible and relevant, in coherence with the model’s prediction. An adversarial attack must create adversarial samples x_adv that are sufficiently close to the
+real data x, i.e., |x − x_adv |2 < ϵ, where ϵ is that maximum distance to which an attack is considered
 credible.
+
 
 This Project entails the exploration of the impact of adversarial attacks on tabular data
 classifiers, specifically within the context of loan risk prediction using the German Credit Risk dataset.
-The task involves a step-by-step investigation structured around essential components.
+
 
 The Doc directory contains an extensinve and in-depth report of the whole Project.
 The Source directory contains the Project Jupyter Notebook.
